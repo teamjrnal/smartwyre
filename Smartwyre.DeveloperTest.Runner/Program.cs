@@ -20,6 +20,7 @@ namespace Smartwyre.DeveloperTest.Runner
 
             _serviceProvider = services.BuildServiceProvider();
 
+            // some code in here to fetch whatever host is going to run thing, and get going i.e. _serviceProvider.GetRequiredService<IPaymentServiceHost>().Run();
 
             Console.WriteLine("Ready top make a payment");
         }
